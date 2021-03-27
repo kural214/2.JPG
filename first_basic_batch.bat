@@ -1,3 +1,9 @@
 @ECHO OFF
-ECHO Congratulations! Your first batch file executed successfully.
+git init
+git remote add origin https://github.com/kural214/Test.git
+git add .
+git commit -m "Random Commit"
+git push origin master
+
+
 PAUSE
